@@ -33,3 +33,8 @@ springdoc:
 
 security:
   paths-to-ignore: /api-docs
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: path-pattern-parser
