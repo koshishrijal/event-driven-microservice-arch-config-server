@@ -31,6 +31,10 @@ spring:
   thymeleaf:
     cache: false
 
+security:
+  logout-success-url: http://localhost:8184/elastic-query-web-client
+  default-client-registration-id: keycloak
+
 user-config:
   username: admin
   password: ENC(2jbZSar6eIj+ZSf2NfQd1AqUCCCZOgHPg6GpqNn1NOHF62q8XZDJ0tyuPsD/f0pt==)
